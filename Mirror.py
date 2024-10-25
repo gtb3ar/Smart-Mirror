@@ -60,9 +60,9 @@ def main():
     def gestureCheck():
         if current_gesture == "open":
             mirror_gui.animate()
-        window.after(1000, gestureCheck)
+        window.after(800, gestureCheck)
 
-    window.after(1000, gestureCheck)
+    window.after(800, gestureCheck)
     window.mainloop()
 
 
